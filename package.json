@@ -1,0 +1,16 @@
+{
+  "name": "omni-dark",
+  "version": "1.0.0",
+  "description": "Make reading easier on the eyes.",
+  "main": "index.js",
+  "scripts": {
+    "release": "mkdir -p release; zip omni-dark.zip ./src/icons/*.png ./src/css/omni-dark.css manifest.json && mv omni-dark.zip release"
+  },
+  "keywords": [
+    "omni",
+    "dark",
+    "dark-mode"
+  ],
+  "author": "Johnie Hjelm <johnie@hjelm.im>",
+  "license": "MIT"
+}

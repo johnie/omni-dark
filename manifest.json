@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Omni Dark",
+  "description": "Make reading easier on the eyes.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "./src/icons/icon-16.png",
+    "32": "./src/icons/icon-32.png",
+    "48": "./src/icons/icon-48.png",
+    "128": "./src/icons/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.omni.se/*"
+      ],
+      "css": [
+        "src/css/omni-dark.css"
+      ]
+    }
+  ]
+}

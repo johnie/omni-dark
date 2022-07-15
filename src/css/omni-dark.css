@@ -1,0 +1,70 @@
+:root {
+  --omni-dark-primary: #5c8e81;
+  --omni-dark-text: #fafafa;
+  --omni-dark-text-secondary: #888;
+  --omni-dark-background: #222;
+  --omni-dark-shadow: 0 0 5px 0 #000000;
+}
+
+body {
+  background-color: var(--omni-dark-background) !important;
+  color: var(--omni-dark-text) !important;
+}
+
+.header {
+  background-color: var(--omni-dark-background) !important;
+  box-shadow: var(--omni-dark-shadow) !important;
+}
+
+.resource--title,
+.resource--text,
+.teaser--subscription__text,
+.resource--link-title,
+.topnav-item--active {
+  color: var(--omni-dark-text) !important;
+}
+
+.group,
+.resource,
+.article,
+.feed--partial,
+.main-narrow--side {
+  background-color: var(--omni-dark-background) !important;
+  color: var(--omni-dark-text) !important;
+}
+
+.component--storyHeading,
+.resource--title-container,
+.component--storyLink {
+  background-color: var(--omni-dark-background) !important;
+}
+
+.article-meta-published {
+  color: var(--omni-dark-text-secondary) !important;
+}
+
+.starbox-star {
+  background-color: var(--omni-dark-background) !important;
+}
+
+.shadow-ambient {
+  box-shadow: var(--omni-dark-shadow) !important;
+}
+
+.btn--secondary:not(.btn--secondary-premium) {
+  background-color: var(--omni-dark-primary) !important;
+  color: var(--omni-dark-text) !important;
+}
+
+.u-fadehr--after::after,
+.article--fadehr::after {
+  background: var(--omni-dark-text-secondary) center center no-repeat !important;
+}
+
+.topic {
+  border-bottom: 1px solid var(--omni-dark-text-secondary) !important;
+}
+
+.user-profile-icon {
+  --profile-icon-background: var(--omni-dark-text-secondary) !important;
+}
